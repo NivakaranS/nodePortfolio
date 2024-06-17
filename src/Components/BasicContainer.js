@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import './BasicContainer.css';
 import Potrait from './images/portrait.png';
+import Arrow from './images/right-arrow.png';
 
 const BasicContainer = () => {
     const [wordIndex, setWordIndex] = useState(0);
@@ -46,10 +47,15 @@ const BasicContainer = () => {
             </div>
             <div className="basicRightContainer">
                 <div className="innerBasicRightContainer">
-                <p className="firstText">Hello there!</p>
-                <p className="secondText">This is Nivakaran</p>
-                <p className="thirdText">I am a <span className="titleText">{displayText}</span></p>
-
+                    <p className="firstText">Hello there!</p>
+                    <p className="secondText">This is Nivakaran</p>
+                    <p className="thirdText">I am a <span className="titleText">{displayText}</span></p>
+                    <div className="buttonContainer">
+                    <button className="basicDownloadBtn">Download resume</button>
+                        <button className="basicKnowBtn">Know more<img className="arrowIcon" src={Arrow} /></button>
+                        
+                    </div>
+                
                 </div>
                 
 

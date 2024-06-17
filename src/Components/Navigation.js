@@ -18,6 +18,7 @@ const Navigation = () => {
                 <ul className='navigationContainer'>
                     <li className='navList'>Home</li>
                     <li className='navList'>About</li>
+                    <li className='navList'>Services</li>
                     <li className='navList'>Projects</li>
                     <li className='navList'>Contact</li>
                 </ul>

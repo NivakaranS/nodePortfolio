@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from './Components/Navigation';
 import BasicContainer from './Components/BasicContainer';
+import About from './Components/About';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Navigation/>
       <BasicContainer/>
+      <About/>
     </div>
   );
 }

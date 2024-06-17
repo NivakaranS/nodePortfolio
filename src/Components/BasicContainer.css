@@ -14,11 +14,14 @@
 
 }
 
+
+
 .basicLeftContainer {
     background: grey;
     
 
 }
+
 
 
 .basicRightContainer {
@@ -88,6 +91,52 @@
          right: 0px;
  
      }
+     .buttonContainer {
+        display: flex;
+        margin: 13px 10px;
+        
+    }
+    
+    .basicKnowBtn {
+        margin-right: 10px;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 20px;
+        border: none;
+        background: rgb(255, 208, 0);
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .arrowIcon{
+        width: 25px;
+        margin-left: 10px;
+    
+    }
+    
+    .basicDownloadBtn {
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 20px;
+        padding: 10px 20px;
+        border: none;
+        background: rgb(255, 208, 0);
+        margin-right: 10px;
+        
+        
+    }
+    
+    .basicKnowBtn:hover{
+        background: yellow;
+    }
+    
+    .basicDownloadBtn:hover {
+        background: yellow;
+    }
+    
+
 
 }
 
@@ -117,7 +166,7 @@
      .innerBasicRightContainer {
          display: flex;
          flex-direction: column;
-         margin: 0px 9px ;
+         margin: 0px 12px ;
          justify-content: center;
          height: 100%;
          font-weight: 500;
@@ -150,6 +199,52 @@
          right: 0px;
  
      }
+
+     .buttonContainer {
+        display: flex;
+        margin: 13px 10px;
+        
+    }
+    
+    .basicKnowBtn {
+        margin-right: 10px;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 20px;
+        border: none;
+        background: rgb(255, 208, 0);
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .arrowIcon{
+        width: 25px;
+        margin-left: 10px;
+    
+    }
+    
+    .basicDownloadBtn {
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 20px;
+        padding: 10px 20px;
+        border: none;
+        background: rgb(255, 208, 0);
+        margin-right: 10px;
+        
+        
+    }
+    
+    .basicKnowBtn:hover{
+        background: yellow;
+    }
+    
+    .basicDownloadBtn:hover {
+        background: yellow;
+    }
+    
 }
 
 @media only screen and (min-width: 1025px) {
@@ -213,5 +308,50 @@
         right: 0px;
 
     }
+
+    .buttonContainer {
+        display: flex;
+        margin: 10px 10px;
+        
+    }
+    
+    .basicKnowBtn {
+        margin-right: 10px;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 18px;
+        border-radius: 20px;
+        border: none;
+        background: rgb(255, 208, 0);
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .arrowIcon{
+        width: 25px;
+        margin-left: 10px;
+    
+    }
+    
+    .basicDownloadBtn {
+        cursor: pointer;
+        font-size: 18px;
+        border-radius: 20px;
+        padding: 10px 20px;
+        border: none;
+        background: rgb(255, 208, 0);
+        margin-right: 10px;
+        
+    }
+    
+    .basicKnowBtn:hover{
+        background: yellow;
+    }
+    
+    .basicDownloadBtn:hover {
+        background: yellow;
+    }
+    
 
 }
