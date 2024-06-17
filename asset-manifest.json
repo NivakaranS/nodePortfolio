@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/NivakaranS/nodePortfolio.git/static/css/main.67b3ea30.css",
+    "main.js": "/NivakaranS/nodePortfolio.git/static/js/main.d14e1c4d.js",
+    "static/js/453.1407b060.chunk.js": "/NivakaranS/nodePortfolio.git/static/js/453.1407b060.chunk.js",
+    "static/media/logon.png": "/NivakaranS/nodePortfolio.git/static/media/logon.c69fea4fe6ebe0da801f.png",
+    "static/media/menu.png": "/NivakaranS/nodePortfolio.git/static/media/menu.9de22c2aa56d78ef83f1.png",
+    "index.html": "/NivakaranS/nodePortfolio.git/index.html",
+    "main.67b3ea30.css.map": "/NivakaranS/nodePortfolio.git/static/css/main.67b3ea30.css.map",
+    "main.d14e1c4d.js.map": "/NivakaranS/nodePortfolio.git/static/js/main.d14e1c4d.js.map",
+    "453.1407b060.chunk.js.map": "/NivakaranS/nodePortfolio.git/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67b3ea30.css",
+    "static/js/main.d14e1c4d.js"
+  ]
+}
