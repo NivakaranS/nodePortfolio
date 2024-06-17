@@ -8,7 +8,9 @@ ul {
     list-style: none;
 }
 
-
+.mainNavigationContainer{
+    z-index: 999;
+}
 
 .navigationContainer {
     display: flex;
@@ -28,6 +30,8 @@ ul {
 }
 
 
+
+
 @media only screen and (max-width: 600px) {
     .mobileNavigationContainer {
         display: flex;
@@ -35,6 +39,7 @@ ul {
         width: 100%;
         justify-content: space-around;
         align-items: center;
+        border-bottom: 1px solid red;
     }
     
     .mobileLogo {
@@ -90,6 +95,8 @@ ul {
         background: black;
         padding: 10px 0px;
         position: fixed;
+        top: 0;
+        border-bottom: 1px solid red;
         
     }
 
@@ -113,10 +120,14 @@ ul {
 
 @media only screen and (min-width: 1024px) {
     .navList {
-        margin: 0px 20px;
+        margin: 0px 30px;
         font-size: 23px;
         font-weight: 500;
         cursor: pointer;
+    }
+
+    .navList:hover {
+        color: rgb(199, 195, 195);
     }
 
     .mainNavigationContainer {
@@ -128,6 +139,9 @@ ul {
         background: black;
         padding: 10px 0px;
         position: fixed;
+        top: 0;
+        border-bottom: 1px solid red;
+        
         
     }
 
@@ -142,7 +156,7 @@ ul {
     .downloadBtn {
         width: 110px;
         border-radius: 5px;
-        font-size: 17px;
+        font-size: 17px;    
     }
 
 }

@@ -25,7 +25,7 @@ const Navigation = () => {
                     <button className='downloadBtn'>Download resume</button>
                 </div>
             </nav>
-            {
+            {     
                 mobileMenuClick
                 ?<MobileNavigator/>
                 :<nav className='mobileNavigationContainer'>
