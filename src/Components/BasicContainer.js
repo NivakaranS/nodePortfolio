@@ -51,7 +51,7 @@ const BasicContainer = () => {
                     <p className="secondText">This is Nivakaran</p>
                     <p className="thirdText">I am a <span className="titleText">{displayText}</span></p>
                     <div className="buttonContainer">
-                    <button className="basicDownloadBtn">Download resume</button>
+                    
                         <button className="basicKnowBtn">Know more<img className="arrowIcon" src={Arrow} /></button>
                         
                     </div>

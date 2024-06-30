@@ -8,6 +8,9 @@ import MobileNavigator from './MobileNavigator';
 const Navigation = () => {
     const [mobileMenuClick, setMobileMenuClick] = useState(false);
 
+    const mobileMenuClickClose = () => {
+        setMobileMenuClick(false);
+    }
 
     return(
         <div className='ultraMainNavigationContainer'>
@@ -28,7 +31,7 @@ const Navigation = () => {
             </nav>
             {     
                 mobileMenuClick
-                ?<MobileNavigator/>
+                ?<MobileNavigator mobileMenuClickClose={mobileMenuClickClose} />
                 :<nav className='mobileNavigationContainer'>
                 
                 <img onClick={() => setMobileMenuClick(true)} className='mobileLogo' src={mobileMenu} />

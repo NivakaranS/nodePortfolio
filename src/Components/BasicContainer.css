@@ -74,14 +74,14 @@
      }
  
      .thirdText {
-         font-size: 21px;
+         font-size: 20px;
  
      }
  
      .titleText {
-         color: blue;
+         color: rgb(0, 136, 255);
          font-weight: 700;
-         border-right: 5px solid rgb(10, 105, 248);
+         border-right: 5px solid rgb(17, 113, 231);
          padding-right: 6px;
      }
  

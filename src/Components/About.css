@@ -3,27 +3,60 @@
 
 
 @media only screen and (max-width: 600px) {
+    .innerNumberContainer {
+        margin-top: 20px;
+        
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    .numberContainer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
     .mainAboutContainer {
         color: white;
         background: black;
         display: flex;
         align-items: center;
-        justify-content: center;
-        height: 90vh;
+        
+        height: 100%;
         flex-direction: column;
+        
+        overflow-x: hidden;
+    }
+    
+    .innerMainAboutContainer {
+        background: gray;
+        height: fit-content;
+        display: flex;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+
+
     }
     
     .innerQuoteContainer {
-        width: 80%;
-        background: grey;
+        width: 90%;
+        background: rgb(67, 64, 64);
         border-radius: 10px;
         margin-bottom: 20px;
+        margin-top: 10px;
+        
     }
     
     .quote {
         text-align: center;
-        font-size: 35px;
+        font-size: 30px;
         margin-top: 10px;
+        background: rgb(67, 64, 64);
     }
     
     .steve {
@@ -41,9 +74,9 @@
     .aboutMe {
         display: flex;
         flex-direction: row;
-        width: 80% ;
+        width: 90% ;
         background: white;
-        margin: 10px 0px 20px 0px;
+        margin: 0px 0px 20px 0px;
         height: 100%;
         border-radius: 10px;
     }
@@ -64,12 +97,13 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        padding: 20px 0px;
     }
 
     .innerRightContainer {
-        height: 85%;
-        width: 88%;
-        outline: 1px solid black;
+        
+        width: 90%;
+        
         
     }
 }

@@ -18,14 +18,32 @@ ul {
 }
 
 .mobileNavList {
-    font-size: 20px;
-    margin: 20px 0px;
+    font-size: 25px;
+    margin: 25px 0px;
     font-weight: 400;
     cursor: pointer;
     text-align: center;
 
 }
 
+.mobileNavList:hover {
+    color: gray;
+}
+
+.mobileClose {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.mobileClose:hover {
+    background: red;
+}
 
 
 @media only screen and (max-width: 600px) {
